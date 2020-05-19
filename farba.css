@@ -1,0 +1,138 @@
+body{
+background-color: #fefefe;
+color: #212121;
+font-family:  'Open Sans', sans-serif;
+
+margin: 0 !important;
+font-size:15px;
+}
+
+#topnav
+{
+	height:40px;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.menu
+{
+	margin-top:0;
+	text-align:left;
+	font-size: 10 px;
+	/*background-color:#ededed;*/
+	padding:5px;
+	background-color: 	#6B8E23;	
+}
+.menu > li
+{
+	
+	display:inline-block;
+	
+	padding:5px 10px;
+	
+	border-right:1px dashed #0a2b42;
+}
+.menu a 
+{
+	text-decoration:none;
+	color:#333;
+}
+.menu a:hover
+{
+	color:DarkOliveGreen;
+}
+
+.menu >li:first-child
+{
+	padding-left:10px;
+}
+.menu>li:last-child
+{
+	border:none;
+}
+
+
+h1.logo
+{
+	font-size:36px;
+	font-weight: 400;
+	text-align:center;
+	letter-spacing:5px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+
+
+#container
+{
+		width:300px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top:10px;
+}
+
+.tab
+{
+	display:inline;
+	padding:10px;
+}
+.opis
+{
+	width:150px;
+	display:inline;
+	/*display: flex;*/
+}
+
+input[type=number], select {
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number]:focus {
+  background-color: DarkSeaGreen;
+}
+input[type=text], select {
+  width: 120px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button] {
+  width: 120px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=button]:hover {
+  background-color: #45a049;
+}
+input[type=reset] {
+  width: 120px;
+  background-color: FireBrick;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-color: Maroon;
+}

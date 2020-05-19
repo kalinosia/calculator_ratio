@@ -1,0 +1,241 @@
+body{
+background-color: #fefefe;
+color: #212121;
+font-family:  'Open Sans', sans-serif;
+
+margin: 0 !important;
+font-size:15px;
+}
+
+#topnav
+{
+	height:40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu
+{ 
+	margin-top:0;
+	text-align:left;
+	font-size: 10 px;
+	/*background-color:#ededed;*/
+	padding:5px;
+	background-color: 	#6B8E23;	
+}
+.menu > li
+{
+	
+	display:inline-block;
+	
+	padding:5px 10px;
+	
+	border-right:1px dashed #0a2b42;
+}
+.menu a 
+{
+	text-decoration:none;
+	color:#333;
+}
+.menu a:hover
+{
+	color:DarkOliveGreen;
+}
+
+.menu >li:first-child
+{
+	padding-left:10px;
+}
+.menu>li:last-child
+{
+	border:none;
+}
+
+
+h1.logo
+{
+	font-size:36px;
+	font-weight: 400;
+	text-align:center;
+	letter-spacing:5px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+
+#container
+{
+		width:700px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+/* Tu można zmienić jeżeli chce się dane na środku ale wtedy coś po prawej str bo pusto 
+#dane
+{
+	text-align:left;
+}
+*/
+#opispomocniczy
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:20px;
+	margin:5px;
+}
+/* ?????
+#wybor
+{
+	display:inline;
+	/*display: flex;*/
+}
+
+.przycisk
+{
+	display:inline;
+}
+
+
+input[type=radio] {
+  width: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 5px;
+  margin: 15px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align:left;
+  
+}
+input[type=submit] {
+  width: 120px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+input[type=number], select {
+  width: 75px;
+  max-width:120px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid DarkOliveGreen;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:20px;
+}
+input[type=number]:focus {
+  background-color: DarkSeaGreen;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+input[type=text], select {
+  width: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid DarkOliveGreen;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:20px;
+ 
+}
+input[type=text]:focus {
+  background-color: DarkSeaGreen;
+}
+input[type=textarea] {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size:15px;
+}
+input[type=textarea]:focus {
+  border: 3px solid #555;
+}
+
+
+label
+{
+	width:150px;
+	display: inline-block;
+	text-align:center;
+	color:#333;
+	font-size:15px;
+	font-weight:600;
+}
+
+
+input[type=button] {
+  width: 120px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ /*margin-right: auto;
+  margin-left:auto;*/
+}
+
+input[type=button]:hover {
+  background-color: #45a049;
+}
+input[type=reset] {
+  width: 120px;
+  background-color: FireBrick;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-color: Maroon;
+}
+
+
+
+input[id=zmianakoloru]{
+	  background-color: black;
+}
+input[id=zmianakoloru]:hover{
+	opacity:0.9;
+	background-color: black;
+}
+
+
+input:required:invalid{
+  box-shadow: 2px 2px 10px rgba(200, 0, 0, 0.85);
+}
+/*input:required:valid{
+  border-left-color: palegreen;
+}*/
