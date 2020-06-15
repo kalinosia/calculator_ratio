@@ -1,6 +1,8 @@
 
 body{
-background-color: #fefefe;
+		/*background-color:  #6e7d33;
+background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
+/*background-color: #fefefe;*/
 color: #212121;
 font-family:  'Open Sans', sans-serif;
 margin: 0 !important;
@@ -83,6 +85,13 @@ h1.logo
 	letter-spacing:5px;
 	margin-top:20px;
 	margin-bottom:10px;
+	background-color:#485b3b;
+	color:white;
+	width:900px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 
@@ -93,8 +102,7 @@ h1.logo
 	background-color:white;
 	width:900px;
 	padding:10px;
-	border-left:1px solid #ccc;
-	border-right:1px solid #ccc;
+	
 }
 p{
 	font-family: 'Yantramanav', sans-serif;

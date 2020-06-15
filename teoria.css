@@ -1,6 +1,8 @@
 body
 {
-	/* Background pattern from Toptal Subtle Patterns */
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-color:  #6e7d33;
+background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png");
 	margin:0px;
     font-family: 'Open Sans', sans-serif;
 	font-size:15px;
@@ -58,6 +60,12 @@ h1.logo
 	margin-top:20px;
 	margin-bottom:10px;
 }
+p{
+	margin-left:auto;
+	margin-right:auto;
+	align:center;
+	font-size:18px;
+}
 
 
 
@@ -68,8 +76,8 @@ h1.logo
 	background-color:white;
 	width:1000px;
 	padding:10px;
-	border-left:1px solid #ccc;
-	border-right:1px solid #ccc;
+	/*border-left:1px solid #ccc;
+	border-right:1px solid #ccc;*/
 	text-align:center;
 }
 #spis
@@ -91,15 +99,12 @@ h1
 	text-transform:uppercase;
 	text-weight:700;
 }
-
-.scrollup
+footer
 {
-	width:64px;
-	height:64px;
-	text-decoration:none;
-	background:url("img/up.png") no-repeat 0px 0px;
-	position:fixed;
-	right:50px;
-	bottom:50px;
-	display:none;
+	
+	background-color: #003300 ;
+	color:white;
+	text-align:center;
+	padding:10px;
 }
+
