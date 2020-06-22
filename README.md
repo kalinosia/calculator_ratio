@@ -1,4 +1,4 @@
-# my website: ratio of numbers
+# my website: ratio of numbers (RESPONSYWNOŚĆ!!)
 I done this to person who need this
 
 <img src="pierwsze.png">
